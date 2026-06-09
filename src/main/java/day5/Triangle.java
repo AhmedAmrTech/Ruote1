@@ -1,4 +1,12 @@
 package day5;
 
-public class Triangle {
+public class Triangle extends Shape {
+    Triangle(){
+
+    }
+
+    @Override
+    protected void draw(){
+        System.out.println("Triangle");
+    }
 }
